@@ -9,7 +9,7 @@ document.querySelectorAll(".drum")[i].addEventListener("click",function()
   
    var value = this.innerHTML;
    MakeSound(value);
-buttonPressed(value);
+   buttonPressed(value);
    
    
 });
